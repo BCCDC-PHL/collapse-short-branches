@@ -5,11 +5,10 @@ This script assists in the identification of genomic clusters in newick-format p
 It performs the following transformations on the tree:
 
 1. Collapse all branches shorter than `--minimum_branch_length` (default 0.000001) down to zero.
-2. Re-order the nodes of the tree by:
-  1. Number of descendants
-  2. Edge length
-  3. Label
-  ...in descending order
+2. Re-order the nodes of the tree in descending order by:
+    1. Number of descendants
+    2. Edge length
+    3. Label
 3. Resolve polytomies
 
 ## Usage
