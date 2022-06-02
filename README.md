@@ -14,7 +14,7 @@ It performs the following transformations on the tree:
 ## Usage
 
 ```
-collapse_short_branches.py <tree.nwk> [--min_branch_length BRANCH_LENGTH]
+collapse_short_branches.py <tree.nwk> [--min_branch_length BRANCH_LENGTH] [--scale SCALE_FACTOR]
 ```
 
 The collapsed tree will be printed to standard output. It can be redirected into a file using the output redirection `>` operator.
